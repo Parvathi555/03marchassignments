@@ -1,0 +1,23 @@
+n=int(input())
+s=[]
+q=[]
+t=list(s)
+p=list(q)
+for i in range(n):
+    t.append(int(input()))
+m=int(input())
+for i in range(m):
+    p.append(int(input()))
+print(t+p)
+    
+    output:5
+           1
+           2
+           3
+           4
+           5
+           3
+           6
+           7
+           8
+           [1,2,3,4,5,6,7,8]
